@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>变帅手记 · 21 天变成干净清爽少年感</title>
+<meta name="description" content="整理自博主男生美白教学视频的变帅手册：美白、牙齿、作息、饮食、身材、仪容、穿搭、谈吐八大板块 + 21 天闯关挑战。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2300C896'/%3E%3Cstop offset='1' stop-color='%232FA8FF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='900'%3E帅%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F5FDFA;
+  --surface:#FFFFFF;
+  --ink:#0D1B16;
+  --ink-soft:#33463F;
+  --muted:#677A72;
+  --mint:#00C896;
+  --sky:#2FA8FF;
+  --grad:linear-gradient(120deg,#00C896,#2FA8FF);
+  --line:rgba(13,27,22,.1);
+  --shadow:0 6px 24px rgba(0,200,150,.14);
+  --shadow-lift:0 18px 44px rgba(0,180,160,.24);
+  --font-cn:"Noto Sans SC","PingFang SC",sans-serif;
+  --font-en:"Bebas Neue","Noto Sans SC",sans-serif;
+  color-scheme:light;
+}
+[data-theme="dark"]{
+  --bg:#08120F;
+  --surface:#0F1D18;
+  --ink:#EAF7F2;
+  --ink-soft:#C2D6CE;
+  --muted:#7E958C;
+  --line:rgba(234,247,242,.12);
+  --shadow:0 6px 24px rgba(0,0,0,.4);
+  --shadow-lift:0 18px 44px rgba(0,0,0,.55);
+  color-scheme:dark;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-cn);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden;transition:background .35s,color .35s}
+::selection{background:var(--mint);color:#fff}
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:linear-gradient(#00C896,#2FA8FF);border-radius:5px}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+img{display:block;max-width:100%}
+:focus-visible{outline:2px solid var(--mint);outline-offset:3px}
+section{scroll-margin-top:84px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,48px)}
+.grad-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* ---------- 导航 ---------- */
+nav{position:fixed;inset:0 0 auto 0;z-index:100;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;font-size:18px}
+.logo i{width:32px;height:32px;border-radius:10px;background:var(--grad);display:flex;align-items:center;justify-content:center;color:#fff;font-style:normal;font-size:16px;font-weight:900;box-shadow:var(--shadow)}
+.nav-links{display:flex;align-items:center;gap:8px}
+.nav-links a{font-size:14px;font-weight:700;color:var(--ink-soft);padding:8px 14px;border-radius:999px;transition:.25s}
+.nav-links a:hover{background:var(--grad);color:#fff;box-shadow:var(--shadow)}
+.theme-btn{width:38px;height:38px;border-radius:50%;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);display:flex;align-items:center;justify-content:center;transition:.3s}
+.theme-btn:hover{border-color:transparent;background:var(--grad);color:#fff;transform:rotate(180deg)}
+.theme-btn svg{width:16px;height:16px}
+.theme-btn .i-sun{display:none}
+[data-theme="dark"] .theme-btn .i-sun{display:block}
+[data-theme="dark"] .theme-btn .i-moon{display:none}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;padding:150px 0 40px;overflow:visible}
+.blob{position:absolute;border-radius:50%;filter:blur(90px);pointer-events:none;z-index:0}
+.blob.b1{width:520px;height:520px;background:rgba(0,200,150,.28);top:-80px;left:-160px}
+.blob.b2{width:460px;height:460px;background:rgba(47,168,255,.25);bottom:-140px;right:-120px}
+[data-theme="dark"] .blob{opacity:.35}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(28px,5vw,64px);align-items:center}
+.hero-tags{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;padding:7px 14px;border-radius:999px;background:var(--surface);border:1.5px solid var(--line);color:var(--ink-soft)}
+.pill.solid{background:var(--grad);color:#fff;border:none;box-shadow:var(--shadow)}
+.hero h1{font-size:clamp(46px,7.4vw,92px);font-weight:900;line-height:1.12;letter-spacing:.01em}
+.hero h1 .en-big{font-family:var(--font-en);font-size:.92em;letter-spacing:.02em;margin-left:8px}
+.hero .sub{font-size:clamp(15px,1.8vw,18px);color:var(--muted);font-weight:500;margin:20px 0 30px;max-width:520px}
+.hero .sub b{color:var(--ink);font-weight:900}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:900;font-size:15px;padding:15px 30px;border-radius:999px;border:none;transition:transform .3s cubic-bezier(.34,1.56,.64,1),box-shadow .3s}
+.btn-primary{background:var(--grad);color:#fff;box-shadow:var(--shadow-lift)}
+.btn-primary:hover{transform:translateY(-4px) scale(1.02)}
+.btn-ghost{background:var(--surface);color:var(--ink);border:2px solid var(--line)}
+.btn-ghost:hover{border-color:var(--mint);color:var(--mint);transform:translateY(-4px)}
+.hero-stats{display:flex;gap:clamp(18px,3vw,38px);margin-top:38px;flex-wrap:wrap}
+.hs b{font-family:var(--font-en);font-size:clamp(34px,3.6vw,46px);line-height:1;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hs span{display:block;font-size:12px;font-weight:700;color:var(--muted);margin-top:2px}
+.hero-visual{position:relative}
+.hero-photo{border-radius:28px;overflow:hidden;box-shadow:var(--shadow-lift);border:4px solid var(--surface);transform:rotate(1.6deg)}
+.hero-photo img{width:100%;aspect-ratio:4/3.4;object-fit:cover}
+.sticker{position:absolute;background:var(--surface);border-radius:999px;padding:10px 18px;font-size:13px;font-weight:900;box-shadow:var(--shadow-lift);border:1.5px solid var(--line);z-index:2;animation:float 4s ease-in-out infinite}
+.sticker em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stk1{top:6%;left:-18px;transform:rotate(-7deg)}
+.stk2{bottom:16%;right:-14px;transform:rotate(5deg);animation-delay:1.2s}
+.stk3{bottom:-16px;left:10%;transform:rotate(-4deg);animation-delay:2s}
+@keyframes float{0%,100%{translate:0 0}50%{translate:0 -9px}}
+.badge80{position:absolute;top:-24px;right:-10px;width:104px;height:104px;border-radius:50%;background:var(--grad);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;box-shadow:var(--shadow-lift);animation:float 4.5s ease-in-out infinite .6s;z-index:3}
+.badge80 b{font-family:var(--font-en);font-size:34px;line-height:1}
+.badge80 span{font-size:10px;font-weight:700;letter-spacing:.14em}
+
+/* ---------- 跑马灯 ---------- */
+.ticker-zone{overflow:hidden;padding:34px 0;margin-top:26px}
+.ticker{background:var(--grad);transform:rotate(-1.3deg) scale(1.03);box-shadow:var(--shadow)}
+.ticker-track{display:flex;width:max-content;animation:mq 30s linear infinite}
+.ticker-track span{padding:13px 26px;color:#fff;font-weight:900;font-size:14px;letter-spacing:.08em;white-space:nowrap}
+.ticker-track i{font-style:normal;opacity:.55;color:#fff;align-self:center}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- 板块卡片 ---------- */
+.boards{padding:clamp(64px,8vw,100px) 0 30px}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:38px}
+.sec-head h2{font-size:clamp(30px,4.4vw,46px);font-weight:900;letter-spacing:.01em}
+.sec-head .en{font-family:var(--font-en);font-size:15px;letter-spacing:.24em;color:var(--muted)}
+.board-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.card{background:var(--surface);border:1.5px solid var(--line);border-radius:22px;overflow:hidden;transition:transform .35s cubic-bezier(.34,1.56,.64,1),box-shadow .35s,border-color .35s;position:relative}
+.card:hover{transform:translateY(-8px);box-shadow:var(--shadow-lift);border-color:transparent}
+.card-media{position:relative;aspect-ratio:1/0.82;overflow:hidden}
+.card-media img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.22,1,.36,1)}
+.card:hover .card-media img{transform:scale(1.07)}
+.card-num{position:absolute;top:12px;left:14px;font-family:var(--font-en);font-size:44px;line-height:1;color:#fff;text-shadow:0 3px 14px rgba(0,0,0,.45)}
+.card-en{position:absolute;bottom:12px;left:14px;font-size:10px;font-weight:900;letter-spacing:.2em;color:#fff;background:rgba(10,20,16,.42);backdrop-filter:blur(6px);padding:4px 10px;border-radius:999px}
+.card-body{padding:16px 18px 20px}
+.card-body h3{font-size:19px;font-weight:900}
+.card-body .zh-sub{font-size:12px;color:var(--muted);font-weight:500;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chips span{font-size:12px;font-weight:700;color:var(--ink-soft);background:color-mix(in srgb,var(--mint) 9%,transparent);border:1px solid color-mix(in srgb,var(--mint) 32%,transparent);padding:4px 11px;border-radius:999px;transition:.25s}
+.card:hover .chips span{background:var(--grad);color:#fff;border-color:transparent}
+
+/* ---------- 进度 ---------- */
+.progress-sec{padding:clamp(60px,8vw,100px) 0}
+.prog-grid{display:grid;grid-template-columns:5fr 7fr;gap:clamp(24px,4vw,48px);align-items:stretch}
+.panel{background:var(--surface);border:1.5px solid var(--line);border-radius:26px;padding:clamp(24px,3vw,36px);box-shadow:var(--shadow)}
+.ring-box{position:relative;width:200px;height:200px;margin:0 auto}
+.ring-box svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring-track{fill:none;stroke:var(--line);stroke-width:11}
+.ring-fg{fill:none;stroke:url(#ringGrad);stroke-width:11;stroke-linecap:round;transition:stroke-dashoffset 1s cubic-bezier(.22,1,.36,1)}
+.ring-center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ring-center b{font-family:var(--font-en);font-size:52px;line-height:1;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ring-center b i{font-style:normal;font-size:.55em}
+.ring-center span{font-size:11px;font-weight:700;letter-spacing:.22em;color:var(--muted);margin-top:4px}
+.ps-row{display:flex;justify-content:space-between;align-items:center;font-size:14px;font-weight:500;color:var(--muted);padding:11px 2px;border-bottom:1px dashed var(--line)}
+.ps-row:last-of-type{border:none}
+.ps-row b{color:var(--ink);font-weight:900;font-family:var(--font-en);font-size:18px;letter-spacing:.04em}
+.cat-bars{display:flex;flex-direction:column;gap:15px;justify-content:center}
+.cb-row{display:grid;grid-template-columns:40px 66px 1fr 48px;gap:12px;align-items:center}
+.cb-row .cb-num{font-family:var(--font-en);font-size:17px;color:var(--muted)}
+.cb-row .cb-name{font-weight:900;font-size:15px}
+.cb-track{height:11px;border-radius:999px;background:var(--line);overflow:hidden}
+.cb-fill{height:100%;border-radius:999px;background:var(--grad);width:0;transition:width .8s cubic-bezier(.22,1,.36,1)}
+.cb-row .cb-pct{font-family:var(--font-en);font-size:16px;color:var(--ink-soft);text-align:right}
+.reset-row{display:flex;justify-content:flex-end;gap:10px;margin-top:14px}
+.btn-mini{background:var(--surface);border:1.5px solid var(--line);border-radius:999px;padding:8px 16px;font-size:12px;font-weight:700;color:var(--muted);transition:.25s}
+.btn-mini:hover{color:#fff;background:var(--grad);border-color:transparent;box-shadow:var(--shadow)}
+.btn-mini.warn{border-color:rgba(255,90,90,.4);color:#e05555}
+.btn-mini.warn:hover{background:linear-gradient(120deg,#ff6b6b,#ff8e53);border-color:transparent}
+
+/* ---------- 21 天挑战 ---------- */
+.challenge{padding:clamp(60px,8vw,100px) 0 clamp(80px,10vw,130px)}
+.banner{position:relative;border-radius:26px;overflow:hidden;margin-bottom:34px;box-shadow:var(--shadow-lift);border:4px solid var(--surface)}
+.banner img{width:100%;height:clamp(200px,28vw,300px);object-fit:cover}
+.banner-ol{position:absolute;inset:0;background:linear-gradient(100deg,rgba(6,24,20,.72) 0%,rgba(6,24,20,.25) 55%,transparent 100%);display:flex;flex-direction:column;justify-content:center;padding:0 clamp(24px,5vw,60px);color:#fff}
+.banner-ol h3{font-size:clamp(22px,3.4vw,36px);font-weight:900}
+.banner-ol p{font-size:clamp(13px,1.6vw,16px);font-weight:500;opacity:.92;margin-top:6px}
+.banner-ol .tag{align-self:flex-start;background:rgba(255,255,255,.18);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.35);padding:5px 14px;border-radius:999px;font-size:12px;font-weight:900;margin-bottom:12px}
+.day-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.day{background:var(--surface);border:1.5px solid var(--line);border-radius:20px;padding:20px;position:relative;transition:transform .3s cubic-bezier(.34,1.56,.64,1),box-shadow .3s}
+.day:not(.locked):hover{transform:translateY(-5px);box-shadow:var(--shadow-lift)}
+.day.done{border:2px solid transparent;background:linear-gradient(var(--surface),var(--surface)) padding-box,var(--grad) border-box}
+.day.locked{opacity:.42}
+.day.locked .d-tasks{pointer-events:none;filter:grayscale(1)}
+.d-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.d-num{font-family:var(--font-en);font-size:26px;letter-spacing:.05em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.d-chip{font-size:10px;font-weight:900;letter-spacing:.1em;border-radius:999px;padding:5px 11px;background:var(--line);color:var(--ink-soft);white-space:nowrap;display:inline-flex;align-items:center;gap:5px}
+.d-chip.done{background:var(--grad);color:#fff}
+.d-chip.current{background:color-mix(in srgb,var(--mint) 14%,transparent);color:var(--mint);box-shadow:inset 0 0 0 1.5px var(--mint)}
+.d-chip.current::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;animation:pulse 1.5s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.15}}
+.d-title{font-size:18px;font-weight:900}
+.d-sub{font-size:12px;font-weight:700;color:var(--muted);margin:2px 0 14px}
+.d-tasks{list-style:none;display:flex;flex-direction:column;gap:9px}
+.d-tasks label{display:flex;gap:11px;align-items:flex-start;cursor:pointer;user-select:none}
+.d-tasks input{position:absolute;opacity:0;pointer-events:none}
+.d-tasks .box{width:20px;height:20px;flex:none;margin-top:3px;border-radius:50%;border:2px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:11px;color:#fff;font-weight:900;transition:.25s}
+.d-tasks .box::after{content:"✓";opacity:0;transform:scale(.3);transition:.25s cubic-bezier(.34,1.56,.64,1)}
+.d-tasks input:checked ~ .box{background:var(--grad);border-color:transparent}
+.d-tasks input:checked ~ .box::after{opacity:1;transform:scale(1)}
+.d-tasks .txt{font-size:13.5px;font-weight:500;color:var(--ink-soft);line-height:1.55;transition:.25s}
+.d-tasks input:checked ~ .txt{color:var(--muted);text-decoration:line-through;text-decoration-thickness:1.5px}
+.d-tasks input:focus-visible ~ .box{outline:2px solid var(--mint);outline-offset:2px}
+.stamp{position:absolute;top:14px;right:16px;background:var(--grad);color:#fff;font-size:11px;font-weight:900;letter-spacing:.14em;padding:6px 12px;border-radius:999px;transform:rotate(-8deg);box-shadow:var(--shadow);animation:stampIn .5s cubic-bezier(.34,1.56,.64,1)}
+@keyframes stampIn{0%{transform:rotate(-8deg) scale(1.8);opacity:0}100%{transform:rotate(-8deg) scale(1);opacity:1}}
+.stamp.hide{display:none}
+
+/* ---------- 页脚 ---------- */
+footer{border-top:1.5px solid var(--line);padding:34px 0 40px}
+.foot-in{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+footer p{font-size:12.5px;color:var(--muted);font-weight:500}
+.foot-grad{height:5px;background:var(--grad)}
+
+/* ---------- 组件 ---------- */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,1,.36,1)}
+.reveal.in{opacity:1;transform:none}
+#toast{position:fixed;top:82px;left:50%;transform:translate(-50%,-16px);opacity:0;z-index:300;background:var(--ink);color:var(--bg);font-size:13px;font-weight:900;padding:13px 26px;border-radius:999px;transition:.4s cubic-bezier(.34,1.56,.64,1);pointer-events:none;white-space:nowrap;box-shadow:var(--shadow-lift)}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+#toTop{position:fixed;right:24px;bottom:24px;z-index:200;width:48px;height:48px;border-radius:50%;border:none;background:var(--grad);color:#fff;font-size:16px;font-weight:900;box-shadow:var(--shadow-lift);opacity:0;pointer-events:none;transform:translateY(14px);transition:.35s}
+#toTop.show{opacity:1;pointer-events:auto;transform:none}
+#toTop:hover{transform:translateY(-4px)}
+
+@media (max-width:1080px){.board-grid{grid-template-columns:repeat(2,1fr)}.day-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:920px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-visual{max-width:520px;margin:10px auto 0}
+  .prog-grid{grid-template-columns:1fr}
+  .nav-links a{display:none}
+}
+@media (max-width:620px){
+  .board-grid{grid-template-columns:1fr}
+  .day-grid{grid-template-columns:1fr}
+  .badge80{width:84px;height:84px;top:-16px;right:-4px}
+  .badge80 b{font-size:26px}
+  .stk1{left:-6px}
+  .stk2{right:-4px}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms !important;transition-duration:.01ms !important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute"><defs><linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00C896"/><stop offset="100%" stop-color="#2FA8FF"/></linearGradient></defs></svg>
+
+<nav>
+  <div class="wrap nav-in">
+    <a class="logo" href="#top"><i>帅</i>变帅手记</a>
+    <div class="nav-links">
+      <a href="#boards">八大板块</a>
+      <a href="#progress">进度</a>
+      <a href="#challenge">21 天挑战</a>
+      <button class="theme-btn" id="themeBtn" aria-label="切换深色模式" title="切换明暗主题">
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.6M12 19.4V22M2 12h2.6M19.4 12H22M4.9 4.9l1.9 1.9M17.2 17.2l1.9 1.9M4.9 19.1l1.9-1.9M17.2 6.8l1.9-1.9"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="blob b1"></div><div class="blob b2"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-tags">
+        <span class="pill solid">MEN'S GLOW-UP PLAN</span>
+        <span class="pill">整理自博主美白教学视频</span>
+      </div>
+      <h1>干净清爽<br><span class="grad-text">少年感</span><span class="en-big grad-text">&gt;80%</span></h1>
+      <p class="sub">防晒 · 作息 · 饮食 · 训练 · 穿搭 · 谈吐 —— <b>8 件事做到八成</b>，你就超过大多数人。</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#challenge">开始 21 天挑战 →</a>
+        <a class="btn btn-ghost" href="#boards">先看八大板块</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hs"><b>08</b><span>大板块</span></div>
+        <div class="hs"><b>35</b><span>条准则</span></div>
+        <div class="hs"><b>21</b><span>天挑战</span></div>
+        <div class="hs"><b>63</b><span>个任务</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=editorial%20portrait%20photo%20of%20a%20handsome%20young%20asian%20man%20in%20his%20early%20twenties,%20fresh%20clean%20glowing%20skin,%20neatly%20styled%20short%20black%20hair,%20crisp%20white%20t-shirt,%20confident%20subtle%20smile,%20arms%20crossed,%20vibrant%20gradient%20background%20from%20mint%20green%20to%20sky%20blue,%20bright%20fresh%20lighting,%20professional%20fashion%20photography,%20sharp%20focus&amp;image_size=portrait_4_3" alt="干净清爽的少年感男生形象">
+      </div>
+      <div class="sticker stk1">防晒 <em>SPF 50+</em></div>
+      <div class="sticker stk2">戒糖 <em>✓</em></div>
+      <div class="sticker stk3">挺胸抬头 <em>✓</em></div>
+      <div class="badge80"><b>80%</b><span>目标</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="ticker-zone"><div class="ticker"><div class="ticker-track" id="tickerTrack"></div></div></div>
+
+<section class="boards wrap" id="boards">
+  <div class="sec-head reveal">
+    <h2>八大板块</h2>
+    <span class="en">THE 8 DEPARTMENTS</span>
+  </div>
+  <div class="board-grid">
+
+    <article class="card reveal">
+      <div class="card-media"><span class="card-num">01</span><img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=young%20asian%20man%20applying%20sunscreen%20cream%20on%20his%20face%20in%20a%20bright%20modern%20bathroom,%20fresh%20clean%20skin,%20morning%20skincare%20routine,%20white%20and%20mint%20green%20interior,%20soft%20natural%20window%20light,%20bright%20lifestyle%20photography&amp;image_size=square" alt="防晒美白护肤"><span class="card-en">WHITENING</span></div>
+      <div class="card-body"><h3>美白</h3><p class="zh-sub">白不是涂出来的，是防出来的</p>
+        <div class="chips"><span>认真洗脸</span><span>硬防晒</span><span>SPF 50+</span><span>保湿</span><span>补锌</span></div>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-media"><span class="card-num">02</span><img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=cheerful%20young%20asian%20man%20with%20a%20bright%20white%20smile%20brushing%20teeth,%20clean%20modern%20bathroom%20with%20mint%20green%20accents,%20sunny%20morning%20light,%20fresh%20clean%20lifestyle%20photography&amp;image_size=square" alt="洁白牙齿"><span class="card-en">TEETH</span></div>
+      <div class="card-body"><h3>牙齿</h3><p class="zh-sub">笑起来最好看的底气</p>
+        <div class="chips"><span>含氟牙膏</span><span>牙贴</span><span>半年洗牙</span></div>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-media"><span class="card-num">03</span><img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=young%20asian%20man%20stretching%20happily%20after%20waking%20up%20in%20a%20bright%20airy%20bedroom,%20white%20bedding,%20green%20plants%20on%20windowsill,%20warm%20morning%20sunlight%20through%20curtains,%20energetic%20fresh%20lifestyle%20photography&amp;image_size=square" alt="规律作息"><span class="card-en">REST</span></div>
+      <div class="card-body"><h3>作息气色</h3><p class="zh-sub">气色只能睡出来</p>
+        <div class="chips"><span>固定时间</span><span>规律作息</span><span>睡够时长</span></div>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-media"><span class="card-num">04</span><img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=healthy%20high%20protein%20meal%20bowl%20with%20grilled%20chicken,%20boiled%20eggs,%20broccoli%20and%20avocado,%20glass%20of%20water%20with%20lemon,%20clean%20light%20table%20with%20mint%20green%20napkin,%20bright%20daylight,%20fresh%20vibrant%20food%20photography,%20top-down%20view&amp;image_size=square" alt="高蛋白健康饮食"><span class="card-en">DIET</span></div>
+      <div class="card-body"><h3>饮食</h3><p class="zh-sub">管住嘴是共同捷径</p>
+        <div class="chips"><span>少油戒糖</span><span>2× 蛋白质</span><span>早慢碳练快碳</span><span>饮水 6–8 次</span><span>戒奶茶咖啡</span></div>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-media"><span class="card-num">05</span><img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=young%20athletic%20asian%20man%20doing%20a%20barbell%20back%20squat%20in%20a%20bright%20modern%20gym,%20dynamic%20training%20pose,%20black%20sportswear,%20daylight%20through%20large%20windows,%20energetic%20sports%20photography,%20sharp%20focus&amp;image_size=square" alt="力量训练"><span class="card-en">BODY</span></div>
+      <div class="card-body"><h3>身材体态</h3><p class="zh-sub">新陈代谢快起来</p>
+        <div class="chips"><span>三大项</span><span>大肌群优先</span><span>下拉划船弓箭步</span><span>挺胸抬头</span></div>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-media"><span class="card-num">06</span><img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=young%20asian%20man%20trimming%20his%20beard%20at%20a%20bathroom%20mirror,%20neat%20grooming%20routine,%20bright%20clean%20interior,%20skincare%20products%20on%20shelf,%20natural%20light,%20fresh%20lifestyle%20photography&amp;image_size=square" alt="仪容打理"><span class="card-en">GROOMING</span></div>
+      <div class="card-body"><h3>仪容</h3><p class="zh-sub">细节决定下限</p>
+        <div class="chips"><span>胡子</span><span>鼻毛</span><span>头发不油</span><span>鞋干净</span></div>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-media"><span class="card-num">07</span><img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=full%20body%20street%20style%20photo%20of%20a%20stylish%20young%20asian%20man,%20white%20oversized%20t-shirt,%20light%20beige%20wide%20pants,%20white%20sneakers,%20small%20silver%20necklace,%20confident%20standing%20pose,%20bright%20sky%20blue%20studio%20background,%20fashion%20editorial%20photography&amp;image_size=square" alt="少年感穿搭"><span class="card-en">WARDROBE</span></div>
+      <div class="card-body"><h3>穿搭</h3><p class="zh-sub">少年感的尽头是克制</p>
+        <div class="chips"><span>≤ 3 色</span><span>少 logo</span><span>衣服平整</span><span>宽松一点</span><span>配饰少</span></div>
+      </div>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-media"><span class="card-num">08</span><img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=confident%20young%20asian%20man%20in%20casual%20shirt%20talking%20and%20smiling%20with%20friends%20at%20a%20sunny%20street%20cafe,%20natural%20hand%20gestures,%20warm%20daylight,%20candid%20lifestyle%20photography,%20fresh%20bright%20tones&amp;image_size=square" alt="自信谈吐社交"><span class="card-en">VOICE</span></div>
+      <div class="card-body"><h3>谈吐</h3><p class="zh-sub">说话方式就是气质</p>
+        <div class="chips"><span>语气稳</span><span>肯定句</span><span>有主见</span><span>不装</span><span>敢指出事实</span></div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="progress-sec" id="progress">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>变帅进度</h2>
+      <span class="en">PROGRESS REPORT</span>
+    </div>
+    <div class="prog-grid">
+      <div class="panel reveal">
+        <div class="ring-box">
+          <svg viewBox="0 0 200 200"><circle class="ring-track" cx="100" cy="100" r="86"/><circle class="ring-fg" id="ringFg" cx="100" cy="100" r="86"/></svg>
+          <div class="ring-center"><b><span id="bigPct">0</span><i>%</i></b><span>OVERALL</span></div>
+        </div>
+        <div style="margin-top:22px">
+          <div class="ps-row"><span>已完成任务</span><b id="statDoneTasks">0 / 63</b></div>
+          <div class="ps-row"><span>达成天数</span><b id="statDoneDays">0 / 21</b></div>
+          <div class="ps-row"><span>当前进度</span><b id="statCurrentDay">DAY 01</b></div>
+        </div>
+      </div>
+      <div class="panel reveal" style="display:flex;flex-direction:column">
+        <div class="cat-bars" id="catBars" style="flex:1"></div>
+        <div class="reset-row" id="resetWrap"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="challenge" id="challenge">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>21 天变帅挑战</h2>
+      <span class="en">21-DAY PROTOCOL</span>
+    </div>
+    <div class="banner reveal">
+      <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=close-up%20of%20a%20young%20athlete%20tying%20white%20sneaker%20laces%20on%20a%20gym%20floor,%20determined%20energy,%20bright%20modern%20gym%20with%20mint%20green%20accents,%20dynamic%20low%20angle,%20vibrant%20sports%20photography&amp;image_size=landscape_16_9" alt="系好鞋带开始挑战">
+      <div class="banner-ol">
+        <span class="tag">RULES</span>
+        <h3>每天 3 件事，全部达成解锁下一天</h3>
+        <p>进度自动保存在本机浏览器 · 允许失误，重新勾选即可</p>
+      </div>
+    </div>
+    <div class="day-grid" id="dayGrid"></div>
+  </div>
+</section>
+
+<div class="foot-grad"></div>
+<footer>
+  <div class="wrap foot-in">
+    <p>《变帅手记》— 整理自博主男生美白教学视频笔记 · 数据仅存本地浏览器</p>
+    <p>© 2026 MEN'S GLOW-UP PLAN</p>
+  </div>
+</footer>
+
+<div id="toast" role="status"></div>
+<button id="toTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+"use strict";
+var $=function(s){return document.querySelector(s)};
+var CATS=[{id:1,name:"美白"},{id:2,name:"牙齿"},{id:3,name:"作息"},{id:4,name:"饮食"},{id:5,name:"身材"},{id:6,name:"仪容"},{id:7,name:"穿搭"},{id:8,name:"谈吐"}];
+var DAYS=[
+{n:1,title:"立项之日",sub:"基础三件套",tasks:[{t:"全身镜前检查：胡子、鼻毛、指甲",c:6},{t:"早晚认真洗脸，保湿跟上",c:1},{t:"今天起固定时间上床睡觉",c:3}]},
+{n:2,title:"防晒元年",sub:"白从遮蔽开始",tasks:[{t:"出门前涂防晒 SPF 50+",c:1},{t:"饮水 6–8 次，每次打卡",c:4},{t:"挺胸抬头练习 10 分钟",c:5}]},
+{n:3,title:"皮肤减法",sub:"戒糖第一天",tasks:[{t:"全天戒糖，不碰含糖饮料",c:4},{t:"含氟牙膏 + 牙线，认真刷牙",c:2},{t:"出门前把鞋刷干净",c:6}]},
+{n:4,title:"穿搭公约",sub:"颜色不过三",tasks:[{t:"今天全身颜色不超过 3 种",c:7},{t:"选择少 logo 的干净穿搭",c:7},{t:"研究一款不油腻的发型",c:6}]},
+{n:5,title:"力量觉醒",sub:"第一次深蹲",tasks:[{t:"深蹲 3 组，动作标准优先",c:5},{t:"蛋白质吃够 2× 体重（克）",c:4},{t:"全天使用肯定句说话",c:8}]},
+{n:6,title:"白到发光",sub:"物理遮蔽",tasks:[{t:"帽子 / 口罩物理遮蔽出门",c:1},{t:"戒掉奶茶与咖啡",c:4},{t:"说话零语气助词",c:8}]},
+{n:7,title:"仪容周检",sub:"细节管理处",tasks:[{t:"修剪胡子与鼻毛",c:6},{t:"使用一贴牙贴",c:2},{t:"出门前熨平衣服",c:7}]},
+{n:8,title:"大肌群日",sub:"胸与背",tasks:[{t:"卧推 / 俯卧撑 3 组",c:5},{t:"早餐换成慢碳",c:4},{t:"核心收紧，挺胸一整天",c:5}]},
+{n:9,title:"社交练习",sub:"肯定句计划",tasks:[{t:"敢于指出一个事实",c:8},{t:"不懂就承认，不装",c:8},{t:"手机静音，23:00 前入睡",c:3}]},
+{n:10,title:"新陈代谢",sub:"让它起飞",tasks:[{t:"高位下拉或划船 3 组",c:5},{t:"练后 30 分钟内补充快碳",c:4},{t:"热水或茶代替所有饮料",c:4}]},
+{n:11,title:"皮肤稳定",sub:"保湿防线",tasks:[{t:"保湿 + 防晒双打卡",c:1},{t:"全天少油饮食",c:4},{t:"睡前拉伸 10 分钟",c:5}]},
+{n:12,title:"细节控",sub:"指甲与配饰",tasks:[{t:"修剪指甲与眉毛",c:6},{t:"鞋面清洁与保养",c:6},{t:"配饰不超过 1 件",c:7}]},
+{n:13,title:"力量进阶",sub:"硬拉弓箭步",tasks:[{t:"硬拉或弓箭步 3 组",c:5},{t:"蛋白质再次达标",c:4},{t:"主动表达一次自己的主见",c:8}]},
+{n:14,title:"中场休整",sub:"恢复也是训练",tasks:[{t:"散步或轻量活动 30 分钟",c:5},{t:"喝够 8 杯水",c:4},{t:"固定睡眠坚持到第 14 天",c:3}]},
+{n:15,title:"白净攻势",sub:"补涂与预约",tasks:[{t:"户外活动补涂防晒一次",c:1},{t:"预约洗牙或了解价位",c:2},{t:"穿搭再次校验颜色 ≤ 3",c:7}]},
+{n:16,title:"谈吐打磨",sub:"语气稳定器",tasks:[{t:"全天保持语气稳定",c:8},{t:"练习减少废话",c:8},{t:"靠墙站 10 分钟",c:5}]},
+{n:17,title:"干净加倍",sub:"从枕巾开始",tasks:[{t:"更换枕巾与毛巾",c:1},{t:"头发控油护理",c:6},{t:"今天是戒糖日",c:4}]},
+{n:18,title:"大肌群 2.0",sub:"深蹲+卧推",tasks:[{t:"深蹲 + 卧推组合训练",c:5},{t:"蛋白质达标",c:4},{t:"衣柜断舍离一次",c:7}]},
+{n:19,title:"少年感穿搭",sub:"宽松版本",tasks:[{t:"微宽松版型穿搭出门",c:7},{t:"少量配饰点缀",c:7},{t:"挺胸抬头一整天",c:5}]},
+{n:20,title:"终局预演",sub:"全流程检查",tasks:[{t:"出门前全流程细节检查",c:6},{t:"防晒 + 牙贴收尾",c:1},{t:"用肯定句完成一次社交",c:8}]},
+{n:21,title:"毕业之日",sub:"360° 检阅",tasks:[{t:"全身镜 360° 自我检阅",c:6},{t:"完成一次完整三大项训练",c:5},{t:"写下 21 天变帅心得",c:8}]}
+];
+var KEY="bs_note_v1";
+var TOTAL=DAYS.reduce(function(a,d){return a+d.tasks.length},0);
+
+function loadState(){try{var s=JSON.parse(localStorage.getItem(KEY));if(s&&s.done&&s.unlocked)return s}catch(e){}return{done:{},unlocked:1}}
+function saveState(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}}
+var state=loadState();
+function taskDone(d,i){return !!state.done[d+"-"+i]}
+function dayComplete(n){return DAYS[n-1].tasks.every(function(_,i){return taskDone(n,i)})}
+
+var toastTimer=null;
+function toast(msg){var t=$("#toast");t.textContent=msg;t.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(function(){t.classList.remove("show")},2400)}
+function pad(n){return n<10?"0"+n:""+n}
+function countUp(el,to,dur){dur=dur||900;var from=parseFloat(el.dataset.v||0)||0;var t0=performance.now();function step(now){var p=Math.min(1,(now-t0)/dur);var e=1-Math.pow(1-p,3);el.textContent=Math.round(from+(to-from)*e);if(p<1)requestAnimationFrame(step);else el.dataset.v=to}requestAnimationFrame(step)}
+
+/* 主题 */
+var themeBtn=$("#themeBtn");
+function applyTheme(t){document.documentElement.setAttribute("data-theme",t);themeBtn.setAttribute("aria-pressed",t==="dark"?"true":"false")}
+var savedTheme=null;try{savedTheme=localStorage.getItem("bs_theme")}catch(e){}
+applyTheme(savedTheme||(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"));
+themeBtn.addEventListener("click",function(){var next=document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark";applyTheme(next);try{localStorage.setItem("bs_theme",next)}catch(e){}});
+
+/* 跑马灯 */
+(function(){var items=["防晒 SPF 50+","戒糖戒奶茶","颜色不过三","挺胸抬头","语气稳","2× 体重蛋白质","牙白且整齐","三大项训练","衣服平整","少年感 > 80%"];
+var half=items.map(function(s){return "<span>"+s+"</span><i>✦</i>"}).join("");
+$("#tickerTrack").innerHTML=half+half;})();
+
+/* 进度 */
+var RING_C=2*Math.PI*86;
+var ringFg=$("#ringFg");
+ringFg.style.strokeDasharray=RING_C;
+ringFg.style.strokeDashoffset=RING_C;
+function renderProgress(animate){
+  var doneCount=0;
+  var perCat={};CATS.forEach(function(c){perCat[c.id]={done:0,total:0}});
+  DAYS.forEach(function(d){d.tasks.forEach(function(t,idx){perCat[t.c].total++;if(taskDone(d.n,idx)){perCat[t.c].done++;doneCount++}})});
+  var pct=Math.round(doneCount/TOTAL*100);
+  ringFg.style.strokeDashoffset=RING_C*(1-pct/100);
+  countUp($("#bigPct"),pct,animate?1000:0);
+  var doneDays=DAYS.filter(function(d){return dayComplete(d.n)}).length;
+  $("#statDoneTasks").textContent=doneCount+" / "+TOTAL;
+  $("#statDoneDays").textContent=doneDays+" / "+DAYS.length;
+  var current=1;
+  for(var i=1;i<=DAYS.length;i++){if(i<=state.unlocked&&!dayComplete(i)){current=i;break}if(i===DAYS.length&&dayComplete(i))current=DAYS.length}
+  $("#statCurrentDay").textContent=doneDays===DAYS.length?"已毕业":"DAY "+pad(current);
+  var bars="";
+  CATS.forEach(function(c){var p=perCat[c.id];var pc=p.total?Math.round(p.done/p.total*100):0;
+    bars+='<div class="cb-row"><span class="cb-num">'+pad(c.id)+'</span><span class="cb-name">'+c.name+'</span><span class="cb-track"><span class="cb-fill" style="width:'+pc+'%"></span></span><span class="cb-pct">'+pc+'%</span></div>'});
+  $("#catBars").innerHTML=bars;
+}
+
+/* 21 天 */
+function renderDays(){
+  var current=null;
+  for(var i=1;i<=DAYS.length;i++){if(i<=state.unlocked&&!dayComplete(i)){current=i;break}}
+  var html="";
+  DAYS.forEach(function(d){
+    var locked=d.n>state.unlocked;
+    var done=dayComplete(d.n);
+    var isCurrent=current===d.n&&!done;
+    var cls=locked?"locked":(done?"done":"");
+    var chip=locked?"未解锁":(done?"已达成":(isCurrent?"进行中":"已解锁"));
+    var chipCls=done?"done":(isCurrent?"current":"");
+    html+='<article class="day '+cls+'" data-day="'+d.n+'">'+
+      '<div class="d-head"><span class="d-num">DAY '+pad(d.n)+'</span><span class="d-chip '+chipCls+'">'+chip+'</span></div>'+
+      '<h3 class="d-title">'+d.title+'</h3><p class="d-sub">'+d.sub+'</p><ul class="d-tasks">';
+    d.tasks.forEach(function(t,idx){
+      html+='<li><label><input type="checkbox" data-task="'+d.n+'-'+idx+'"'+(locked?" disabled":"")+(taskDone(d.n,idx)?" checked":"")+'><span class="box"></span><span class="txt">'+t.t+'</span></label></li>';
+    });
+    html+='</ul><div class="stamp'+(done?"":" hide")+'">已达成</div></article>';
+  });
+  $("#dayGrid").innerHTML=html;
+}
+
+$("#dayGrid").addEventListener("change",function(e){
+  var input=e.target;if(!input.dataset.task)return;
+  var id=input.dataset.task;var dayN=parseInt(id.split("-")[0],10);
+  var wasComplete=dayComplete(dayN);var prevUnlocked=state.unlocked;
+  if(input.checked)state.done[id]=true;else delete state.done[id];
+  var newUnlocked=state.unlocked;
+  while(newUnlocked<DAYS.length&&dayComplete(newUnlocked))newUnlocked++;
+  state.unlocked=Math.max(state.unlocked,newUnlocked);
+  saveState();
+  var msgs=[];
+  if(!wasComplete&&dayComplete(dayN))msgs.push("DAY "+pad(dayN)+" 达成 ✓");
+  if(state.unlocked>prevUnlocked&&state.unlocked<=DAYS.length)msgs.push("已解锁 DAY "+pad(state.unlocked));
+  if(msgs.length)toast(msgs.join(" · "));
+  renderDays();renderProgress(true);
+});
+
+function renderReset(){
+  $("#resetWrap").innerHTML='<button class="btn-mini warn" id="resetBtn">重置全部进度</button>';
+  $("#resetBtn").addEventListener("click",function(){
+    $("#resetWrap").innerHTML='<span style="font-size:12px;font-weight:700;color:var(--muted);align-self:center">确定清空打卡记录？</span><button class="btn-mini warn" id="resetYes">确认清空</button><button class="btn-mini" id="resetNo">取消</button>';
+    $("#resetYes").addEventListener("click",function(){state={done:{},unlocked:1};saveState();renderDays();renderProgress(true);renderReset();toast("进度已重置")});
+    $("#resetNo").addEventListener("click",renderReset);
+  });
+}
+
+/* 滚动显现 */
+var io=new IntersectionObserver(function(entries){entries.forEach(function(en){if(en.isIntersecting){en.target.classList.add("in");io.unobserve(en.target)}})},{threshold:.08,rootMargin:"0px 0px -6% 0px"});
+document.querySelectorAll(".reveal").forEach(function(el,i){el.style.transitionDelay=(i%4)*60+"ms";io.observe(el)});
+
+/* 回到顶部 */
+var toTop=$("#toTop");
+window.addEventListener("scroll",function(){toTop.classList.toggle("show",window.scrollY>700)},{passive:true});
+toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"})});
+
+renderDays();renderProgress(false);renderReset();
+})();
+</script>
+</body>
+</html>
